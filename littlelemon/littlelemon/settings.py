@@ -91,6 +91,7 @@ DATABASES = {
 }
 
 DJOSER = {
+    'USER_CREATE_PASSWORD_RETYPE': True,
     'USER_ID_FIELD': 'username',
 }
 
